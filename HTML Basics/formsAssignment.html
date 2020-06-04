@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Assignment</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<label>
+			First Name:
+			<input type="text" placeholder="George" required>
+		</label>
+		<label>
+			Last Name:
+			<input type="text" placeholder="Floyd" required>
+		</label>
+		<br>
+		<label>
+			Male
+			<input type="radio" name="gender" value="male">
+		</label>
+		<label>
+			Female
+			<input type="radio" name="gender" value="female">
+		</label>
+		<label>
+			Other
+			<input type="radio" name="gender" value="other">
+		</label>
+		<br>
+		<label>
+			Email:
+			<input type="email" placeholder="georgeFloyd@gmail.com" required>
+		</label>
+		<label>
+			Password:
+			<input type="password" minlength="5" maxlength="10" requiredb>
+		</label>
+		<br>
+		<fieldset>
+			<legend>Birthday:</legend>
+			<label>
+				Month:
+				<select name="month">
+					<option value="january">Jan</option>
+					<option value="february">Feb</option>
+					<option value="march">Mar</option>
+				</select>
+			</label>
+			<label>
+				Day:
+				<select name="day">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+				</select>
+			</label>
+			<label>
+				Year:
+				<select name="year">
+					<option value="2000">2000</option>
+					<option value="1990">1990</option>
+					<option value="1960">1960</option>
+				</select>
+			</label>
+		</fieldset>
+		<br>
+		<label>
+			I agree to the terms and conditions
+			<input type="checkbox" required>
+		</label>
+		<br>
+		<input type="submit">
+	</form>
+</body>
+</html>

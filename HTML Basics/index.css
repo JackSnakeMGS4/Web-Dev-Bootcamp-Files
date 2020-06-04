@@ -1,0 +1,21 @@
+/*Method 1 for applying colors in CSS*/
+h1
+{
+	background: url(https://c.stocksy.com/a/CyUA00/z9/2502332.jpg);
+	color: rgba(200,50,150,1);
+}
+
+/*Method 2 for applying colors in CSS*/
+li
+{
+	color: #5588F4;
+}
+
+p
+{
+	border-color: rgba(25,10,0,0.5);
+	border-width: 0.2em;
+	border-radius: 0 15em 15em 0;
+	border-style: solid;
+	background: rgba(25,10,0,0.5);
+}

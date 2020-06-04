@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Refresher Course</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<!-- This is a comment -->
+	<h1>First Tag</h1>
+	<h3>Header 3</h3>
+	<h6>Header 6</h6>
+
+	<p>This is a <strong>paragraph</strong> element</p>
+
+	<h2>List of lists</h2>
+	<ul>
+		<li>
+			<strong>Unordered</strong> List Item 1
+		</li>
+		<li>
+			Unordered List Item 2
+			<ul>
+				<li>nested list item 1</li>
+				<li>nested list item 2</li>
+			</ul>
+		</li>
+	</ul>
+
+	<ol>
+		<li>
+			<em>Ordered</em> List Item 1
+		</li>
+		<li>
+			Ordered List Item 2
+		</li>
+	</ol>
+
+	<img src="https://i.pinimg.com/564x/fc/96/97/fc96973c364ba8bb2c673d0a4f2725b2.jpg">
+	<br>
+	<a href="htmlListsAssignment.html">Click here for Bootcamp HTML Lists Assignment</a>
+	<br>
+	<a href="recreateWebpageAssignment.html">Go to webpage assignment</a>
+
+	<div>
+		<!-- 1st Option for making HTML tables -->
+		<!-- <table border=".5px">
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+			</tr>
+			<tr>
+				<td>Jaime</td>
+				<td>24</td>
+			</tr>
+		</table> -->
+
+		<!-- 2nd Option for making HTML tables -->
+		<table border=".5px">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Nationality</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Jaime</td>
+					<td>24</td>
+					<td>USA</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<br>
+	<a href="pokemonTableAssignment.html">Go to pokemon table assignment.</a>
+
+	<div>
+		<h1>This is a form</h1>
+
+		<form>
+			<!-- Two ways of connecting label tags to input tags -->
+
+			<!-- Method 1 -->
+			<label>
+				Username:
+				<input type="text" placeholder="username">
+			</label>
+
+			<!-- Method 2 -->
+			<label for="password">Password:</label>
+			<input id="password" type="password" placeholder="password">
+
+			<!-- This is basic validation in HTML -->
+			<label>
+				Email:
+				<input type="email" placeholder="email" required>
+			</label>
+
+			<input type="submit">
+		</form>
+
+		<p>Form tags have two attributes: action and method.</p>
+
+		<ul>
+			<li>Action: where the form sends data to.</li>
+			<li>Method: What HTTP method should be used (GET or POST).</li>
+		</ul>
+	</div>
+
+	<div>
+		<h1>Radio Buttons, Checkboxes, and Dropdowns</h1>
+
+		<input type="radio">
+		<input type="checkbox">
+
+		<h3>Do prefer cats or dogs?</h3>
+
+		<form>
+			<!-- Two ways of connecting label tags to input tags -->
+
+			<!-- Method 1 -->
+			<label>
+				Dogs:
+				<input name="petChoice" type="radio" value="Dog">
+			</label>
+			<label>
+				Cats:
+				<input name="petChoice" type="radio" value="Cat">
+			</label>
+
+			<!-- This is a select tag -->
+			<h3>What is your favorite color?</h3>
+			<select name="color">
+				<option>Red</option>
+				<option>Blue</option>
+				<option>Green</option>
+			</select>
+
+			<!-- This is a textarea tag -->
+			<textarea rows="5" cols="30"></textarea>
+
+			<input type="submit">
+		</form>
+	</div>
+	<br>
+	<a href="formsAssignment.html">Go to forms assignment</a>
+	<br>
+	<a href="toDoList.html">Go to To Do List CSS example</a>
+
+</body>
+</html>
